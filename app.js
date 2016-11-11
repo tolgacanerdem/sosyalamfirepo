@@ -6,7 +6,7 @@ var users = {};
 var userCounter = 0;
 var currentUser = null;
 
-server.listen(3000);
+server.listen(5000);
 
 app.get('/', function( req, res) {
     res.sendFile(__dirname + '/index.html');
